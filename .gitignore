@@ -1,0 +1,36 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.venv/
+env/
+venv/
+
+# Ignore sensitive and environment-specific files
+.env
+*.env
+*.json
+*.pem
+*.key
+*.crt
+*.log
+
+# Ignore dataset and output files
+*.csv
+*.xlsx
+results.csv
+correlation_matrix.xlsx
+
+# Jupyter/Colab notebooks (optional)
+*.ipynb
+
+# VSCode or other IDE settings
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
